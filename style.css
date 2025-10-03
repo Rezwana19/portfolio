@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  background-color: #1877f2; /* Facebook Blue */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1877f2, #145dbf);
+  color: white;
+  padding: 120px 20px;
+  min-height: 100vh;
+}
+
+.profile-img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.btn-fb {
+  background-color: #42b72a; /* Facebook Green CTA */
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.btn-fb:hover {
+  background-color: #36a420;
+  color: white;
+}
+
+.section-title {
+  margin: 60px 0 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #1877f2;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.about-section {
+  padding: 40px 20px;
+  background: #f9fafc;
+  border: 3px solid #1877f2;
+  border-radius: 10px;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.about-section h2.section-title {
+  text-align: center;
+  color: #1877f2;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.about-img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border: 5px solid #1877f2;
+}
+
+.about-details li {
+  margin-bottom: 10px;
+  font-size: 1.05rem;
+}
+
+.about-details b {
+  color: #1877f2;
+}
+
+
+footer {
+  background: #f0f2f5;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
